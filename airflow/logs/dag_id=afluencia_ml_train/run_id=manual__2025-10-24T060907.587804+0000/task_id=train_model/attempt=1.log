@@ -1,0 +1,188 @@
+{"timestamp":"2025-10-24T06:09:44.655461Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-24T06:09:44.656568Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/afluencia/dag_ml_train.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-24T06:09:44.711269Z","level":"info","event":"Executing cmd: uv venv --allow-existing --seed --python python /tmp/venv9htcatbc","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":188}
+{"timestamp":"2025-10-24T06:09:44.712011Z","level":"info","event":"Output:","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":192}
+{"timestamp":"2025-10-24T06:09:44.721769Z","level":"info","event":"Using CPython 3.12.11 interpreter at: /usr/python/bin/python","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:44.721998Z","level":"info","event":"Creating virtual environment with seed packages at: /tmp/venv9htcatbc","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:44.774350Z","level":"info","event":" + pip==25.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:44.777446Z","level":"info","event":"Executing cmd: uv pip install --python /tmp/venv9htcatbc/bin/python -r /tmp/venv9htcatbc/requirements.txt","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":188}
+{"timestamp":"2025-10-24T06:09:44.778071Z","level":"info","event":"Output:","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":192}
+{"timestamp":"2025-10-24T06:09:44.946137Z","level":"info","event":"Using Python 3.12.11 environment at: /tmp/venv9htcatbc","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.007149Z","level":"info","event":"Resolved 166 packages in 59ms","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.391171Z","level":"info","event":"Installed 166 packages in 378ms","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.391364Z","level":"info","event":" + a2wsgi==1.10.10","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.391453Z","level":"info","event":" + aiosmtplib==5.0.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.391541Z","level":"info","event":" + aiosqlite==0.21.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.391637Z","level":"info","event":" + alembic==1.17.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.391713Z","level":"info","event":" + annotated-doc==0.0.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.391786Z","level":"info","event":" + annotated-types==0.7.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.391853Z","level":"info","event":" + anyio==4.11.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.391923Z","level":"info","event":" + apache-airflow==3.1.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.392042Z","level":"info","event":" + apache-airflow-core==3.1.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.392158Z","level":"info","event":" + apache-airflow-providers-common-compat==1.7.4","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.392260Z","level":"info","event":" + apache-airflow-providers-common-io==1.6.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.392365Z","level":"info","event":" + apache-airflow-providers-common-sql==1.28.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.392471Z","level":"info","event":" + apache-airflow-providers-postgres==6.3.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.392561Z","level":"info","event":" + apache-airflow-providers-smtp==2.3.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.392660Z","level":"info","event":" + apache-airflow-providers-standard==1.9.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.392786Z","level":"info","event":" + apache-airflow-task-sdk==1.1.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.392879Z","level":"info","event":" + argcomplete==3.6.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.392957Z","level":"info","event":" + asgiref==3.10.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393044Z","level":"info","event":" + asyncpg==0.30.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393144Z","level":"info","event":" + attrs==25.4.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393230Z","level":"info","event":" + blinker==1.9.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393317Z","level":"info","event":" + cachetools==6.2.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393395Z","level":"info","event":" + cadwyn==5.6.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393478Z","level":"info","event":" + certifi==2025.10.5","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393557Z","level":"info","event":" + cffi==2.0.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393639Z","level":"info","event":" + charset-normalizer==3.4.4","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393722Z","level":"info","event":" + click==8.3.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393800Z","level":"info","event":" + cloudpickle==3.1.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393882Z","level":"info","event":" + colorlog==6.10.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.393956Z","level":"info","event":" + contourpy==1.3.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394041Z","level":"info","event":" + cron-descriptor==2.0.6","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394125Z","level":"info","event":" + croniter==6.0.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394218Z","level":"info","event":" + cryptography==46.0.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394314Z","level":"info","event":" + cycler==0.12.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394398Z","level":"info","event":" + databricks-sdk==0.70.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394480Z","level":"info","event":" + deprecated==1.2.18","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394545Z","level":"info","event":" + dill==0.4.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394627Z","level":"info","event":" + dnspython==2.8.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394697Z","level":"info","event":" + docker==7.1.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394797Z","level":"info","event":" + email-validator==2.3.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394878Z","level":"info","event":" + fastapi==0.120.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.394949Z","level":"info","event":" + fastapi-cli==0.0.14","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395030Z","level":"info","event":" + flask==3.1.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395118Z","level":"info","event":" + flask-cors==6.0.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395202Z","level":"info","event":" + fonttools==4.60.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395272Z","level":"info","event":" + fsspec==2025.9.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395346Z","level":"info","event":" + gitdb==4.0.12","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395428Z","level":"info","event":" + gitpython==3.1.45","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395519Z","level":"info","event":" + google-auth==2.41.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395606Z","level":"info","event":" + googleapis-common-protos==1.71.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395680Z","level":"info","event":" + graphene==3.4.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395761Z","level":"info","event":" + graphql-core==3.2.6","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395835Z","level":"info","event":" + graphql-relay==3.2.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395900Z","level":"info","event":" + greenback==1.2.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.395978Z","level":"info","event":" + greenlet==3.2.4","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.396056Z","level":"info","event":" + grpcio==1.76.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.396130Z","level":"info","event":" + gunicorn==23.0.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.396262Z","level":"info","event":" + h11==0.16.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.396362Z","level":"info","event":" + httpcore==1.0.9","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.396478Z","level":"info","event":" + httptools==0.7.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.396562Z","level":"info","event":" + httpx==0.28.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.396640Z","level":"info","event":" + idna==3.11","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.396723Z","level":"info","event":" + importlib-metadata==8.7.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.396856Z","level":"info","event":" + itsdangerous==2.2.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.396951Z","level":"info","event":" + jinja2==3.1.6","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.397029Z","level":"info","event":" + joblib==1.5.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.397114Z","level":"info","event":" + jsonschema==4.25.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.397199Z","level":"info","event":" + jsonschema-specifications==2025.9.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.397269Z","level":"info","event":" + kiwisolver==1.4.9","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.397362Z","level":"info","event":" + lazy-object-proxy==1.12.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.397436Z","level":"info","event":" + libcst==1.8.5","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.397514Z","level":"info","event":" + linkify-it-py==2.0.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.397589Z","level":"info","event":" + lockfile==0.12.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.397654Z","level":"info","event":" + mako==1.3.10","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.397758Z","level":"info","event":" + markdown-it-py==4.0.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.397883Z","level":"info","event":" + markupsafe==3.0.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.398008Z","level":"info","event":" + matplotlib==3.10.7","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.398117Z","level":"info","event":" + mdurl==0.1.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.398225Z","level":"info","event":" + methodtools==0.4.7","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.398315Z","level":"info","event":" + mlflow==3.5.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.398411Z","level":"info","event":" + mlflow-skinny==3.5.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.398533Z","level":"info","event":" + mlflow-tracing==3.5.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.398653Z","level":"info","event":" + more-itertools==10.8.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.398814Z","level":"info","event":" + msgspec==0.19.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.398943Z","level":"info","event":" + natsort==8.4.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.399046Z","level":"info","event":" + numpy==2.3.4","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.399157Z","level":"info","event":" + opentelemetry-api==1.38.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.399297Z","level":"info","event":" + opentelemetry-exporter-otlp==1.38.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.399463Z","level":"info","event":" + opentelemetry-exporter-otlp-proto-common==1.38.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.399681Z","level":"info","event":" + opentelemetry-exporter-otlp-proto-grpc==1.38.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.399847Z","level":"info","event":" + opentelemetry-exporter-otlp-proto-http==1.38.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.399962Z","level":"info","event":" + opentelemetry-proto==1.38.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.400086Z","level":"info","event":" + opentelemetry-sdk==1.38.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.400228Z","level":"info","event":" + opentelemetry-semantic-conventions==0.59b0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.400358Z","level":"info","event":" + outcome==1.3.0.post0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.400493Z","level":"info","event":" + packaging==25.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.400625Z","level":"info","event":" + pandas==2.3.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.400736Z","level":"info","event":" + pathlib-abc==0.5.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.400864Z","level":"info","event":" + pathspec==0.12.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.400980Z","level":"info","event":" + pendulum==3.1.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.401096Z","level":"info","event":" + pillow==12.0.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.401216Z","level":"info","event":" + pluggy==1.6.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.401376Z","level":"info","event":" + protobuf==6.33.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.401500Z","level":"info","event":" + psutil==7.1.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.401630Z","level":"info","event":" + psycopg2-binary==2.9.11","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.401745Z","level":"info","event":" + pyarrow==21.0.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.401855Z","level":"info","event":" + pyasn1==0.6.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.401976Z","level":"info","event":" + pyasn1-modules==0.4.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.402095Z","level":"info","event":" + pycparser==2.23","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.402211Z","level":"info","event":" + pydantic==2.12.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.402336Z","level":"info","event":" + pydantic-core==2.41.4","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.402428Z","level":"info","event":" + pygments==2.19.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.402535Z","level":"info","event":" + pygtrie==2.5.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.402622Z","level":"info","event":" + pyjwt==2.10.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.402706Z","level":"info","event":" + pyparsing==3.2.5","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.402808Z","level":"info","event":" + python-daemon==3.1.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.402904Z","level":"info","event":" + python-dateutil==2.9.0.post0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.402990Z","level":"info","event":" + python-dotenv==1.1.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403074Z","level":"info","event":" + python-multipart==0.0.20","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403163Z","level":"info","event":" + python-slugify==8.0.4","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403236Z","level":"info","event":" + pytz==2025.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403308Z","level":"info","event":" + pyyaml==6.0.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403386Z","level":"info","event":" + referencing==0.37.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403488Z","level":"info","event":" + requests==2.32.5","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403582Z","level":"info","event":" + retryhttp==1.4.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403655Z","level":"info","event":" + rich==14.2.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403742Z","level":"info","event":" + rich-argparse==1.7.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403826Z","level":"info","event":" + rich-toolkit==0.15.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403903Z","level":"info","event":" + rpds-py==0.28.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.403973Z","level":"info","event":" + rsa==4.9.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404048Z","level":"info","event":" + scikit-learn==1.7.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404123Z","level":"info","event":" + scipy==1.16.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404206Z","level":"info","event":" + setproctitle==1.3.7","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404284Z","level":"info","event":" + shellingham==1.5.4","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404347Z","level":"info","event":" + six==1.17.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404424Z","level":"info","event":" + smmap==5.0.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404494Z","level":"info","event":" + sniffio==1.3.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404563Z","level":"info","event":" + sqlalchemy==2.0.44","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404656Z","level":"info","event":" + sqlalchemy-jsonfield==1.0.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404742Z","level":"info","event":" + sqlalchemy-utils==0.42.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404847Z","level":"info","event":" + sqlparse==0.5.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.404924Z","level":"info","event":" + starlette==0.48.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405007Z","level":"info","event":" + structlog==25.4.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405088Z","level":"info","event":" + svcs==25.1.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405169Z","level":"info","event":" + tabulate==0.9.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405245Z","level":"info","event":" + tenacity==9.1.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405318Z","level":"info","event":" + termcolor==3.1.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405397Z","level":"info","event":" + text-unidecode==1.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405468Z","level":"info","event":" + threadpoolctl==3.6.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405535Z","level":"info","event":" + typer==0.20.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405620Z","level":"info","event":" + types-requests==2.32.4.20250913","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405692Z","level":"info","event":" + typing-extensions==4.15.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405777Z","level":"info","event":" + typing-inspection==0.4.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405849Z","level":"info","event":" + tzdata==2025.2","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.405924Z","level":"info","event":" + uc-micro-py==1.0.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.406008Z","level":"info","event":" + universal-pathlib==0.3.4","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.406077Z","level":"info","event":" + urllib3==2.5.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.406161Z","level":"info","event":" + uuid6==2025.0.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.406291Z","level":"info","event":" + uvicorn==0.38.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.406386Z","level":"info","event":" + uvloop==0.22.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.406471Z","level":"info","event":" + watchfiles==1.1.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.406560Z","level":"info","event":" + websockets==15.0.1","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.406638Z","level":"info","event":" + werkzeug==3.1.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.406715Z","level":"info","event":" + wirerope==1.0.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.406791Z","level":"info","event":" + wrapt==1.17.3","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.406897Z","level":"info","event":" + zipp==3.23.0","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:45.422628Z","level":"info","event":"Executing cmd: /tmp/venv9htcatbc/bin/python /tmp/venv-callinb3ihbs/script.py /tmp/venv-callinb3ihbs/script.in /tmp/venv-callinb3ihbs/script.out /tmp/venv-callinb3ihbs/string_args.txt /tmp/venv-callinb3ihbs/termination.log /tmp/venv-callinb3ihbs/airflow_context.json","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":188}
+{"timestamp":"2025-10-24T06:09:45.423213Z","level":"info","event":"Output:","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":192}
+{"timestamp":"2025-10-24T06:09:50.898814Z","level":"info","event":"Traceback (most recent call last):","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:50.899126Z","level":"info","event":"  File \"/tmp/venv-callinb3ihbs/script.py\", line 54, in <module>","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:50.899343Z","level":"info","event":"    res = train_model(*arg_dict[\"args\"], **arg_dict[\"kwargs\"])","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:50.899495Z","level":"info","event":"          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:50.899647Z","level":"info","event":"  File \"/tmp/venv-callinb3ihbs/script.py\", line 24, in train_model","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:50.899765Z","level":"info","event":"    from dags.afluencia.modelo_afluencia import train_and_log","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:50.899884Z","level":"info","event":"ModuleNotFoundError: No module named 'dags'","logger":"airflow.utils.process_utils","filename":"process_utils.py","lineno":196}
+{"timestamp":"2025-10-24T06:09:51.844078Z","level":"error","event":"Task failed with exception","logger":"task","filename":"task_runner.py","lineno":972,"error_detail":[{"exc_type":"AirflowException","exc_value":"Process returned non-zero exit status 1.\nNo module named 'dags'","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":920,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1307,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":416,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/decorator.py","lineno":252,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":416,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":491,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":416,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":216,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":897,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":589,"name":"_execute_python_callable_in_subprocess"}],"is_group":false,"exceptions":[]}]}

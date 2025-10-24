@@ -1,0 +1,7 @@
+sources:
+  - name: public
+    tables:
+      - name: raw_tren_ligero
+      - name: raw_cablebus
+      - name: raw_trolebus
+      - name: cat_dias_festivos

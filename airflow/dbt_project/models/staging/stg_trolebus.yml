@@ -1,0 +1,41 @@
+models:
+  - name: stg_trolebus
+    description: Datos limpios y tipados de la tabla raw_trolebus
+    columns:
+      - name: fecha
+        description: Fecha de corte
+        tests:
+          - not_null
+      - name: tipo_pago
+        description: Tipo de pago usado por el usuario
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Prepago', 'Gratuidad']
+      - name: afluencia
+        description: Número de usuarios registrados
+        tests:
+          - not_null
+          - numeric_bounds:
+              arguments:
+                min_value: 0
+      - name: linea
+        description: Linea del transporte
+        tests:
+          - not_null
+      - name: anio
+        description: Año de fecha de corte
+        tests:
+          - not_null
+          - numeric_bounds:
+              arguments:
+                min_value: 2022
+                max_value: 2025
+      - name: mes
+        description: Mes de fecha de corte
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
