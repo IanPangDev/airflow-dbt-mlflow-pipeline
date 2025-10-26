@@ -1,4 +1,0 @@
-{"timestamp":"2025-10-19T04:41:19.221817Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
-{"timestamp":"2025-10-19T04:41:19.222683Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/afluencia/dag_elt.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
-{"timestamp":"2025-10-19T04:41:45.107050Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"running_elsewhere","message":"TI is already running elsewhere","current_hostname":"c2e42c512446","current_pid":261}},"logger":"task"}
-{"timestamp":"2025-10-19T04:41:50.132610Z","level":"error","event":"Task killed!","logger":"task"}

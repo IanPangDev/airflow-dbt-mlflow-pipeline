@@ -2,11 +2,16 @@ from airflow.sdk import dag, task
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from subprocess import run
 import pandas as pd
+from os import getenv
+from dotenv import load_dotenv
 
 @dag(
     dag_id='afluencia_ml_train'
 )
 def afluencia_ml_train():
+    
+    load_dotenv()
+    
     @task
     def create_view_train():
         print(run(["dbt", "run", "--select", "vw_afluencia_transportes_forecasting",
@@ -26,9 +31,16 @@ def afluencia_ml_train():
         requirements=[
             'mlflow',
             'pandas',
-            'numpy'
+            'numpy',
+            'boto3'
             ],
-        system_site_packages=False
+        system_site_packages=False,
+        env_vars={
+            'MLFLOW_TRACKING_URI': 'http://mlflow:8080',
+            'MLFLOW_S3_ENDPOINT_URL': 'http://minio:9000',
+            'AWS_ACCESS_KEY_ID': getenv('AWS_ACCESS_KEY_ID'),
+            'AWS_SECRET_ACCESS_KEY': getenv('AWS_SECRET_ACCESS_KEY')
+        }
     )
     def train_model(df: pd.DataFrame):
         import sys, os
