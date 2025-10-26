@@ -1,0 +1,9 @@
+postgres-minio/pgdata/*
+postgres-minio/minio_data/*
+
+**/secrets
+**/.env
+
+airflow/logs/
+**/__pycache__/
+*.pyc
